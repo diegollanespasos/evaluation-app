@@ -1,0 +1,80 @@
+.card-container {
+    border-radius: 1rem;
+    background-color: #1e2a47;
+    display: flex;
+    margin: 2rem 0;
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.image-container img {
+    border-radius: 50%;
+    margin: 2rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+.info-container {
+    width: 100%;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.statistics-container {
+    border-radius: 1rem;
+    background-color: #141d2f;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.statistics-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.social-media-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media-container a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.social-media-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.social-media-icon {
+    margin-right: 0.75rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .social-media-container {
+        flex-direction: column;
+    }
+}
